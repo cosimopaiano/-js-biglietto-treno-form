@@ -125,19 +125,9 @@ h3 {
 /* BIGLIETTO */
 #biglietto {
   position: relative;
-  border-radius: 10px;
+  border-radius: 142px;
   background-color: white;
   padding: 20px 0;
-}
-
-#biglietto::before,
-#biglietto::after {
-  content: '';
-  position: absolute;
-  background-color: #363a56;
-  height: 20px;
-  width: 100%;
-  border-radius: 10px;
 }
 
 #biglietto::before {
