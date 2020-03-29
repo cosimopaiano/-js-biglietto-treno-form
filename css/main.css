@@ -115,7 +115,8 @@ h3 {
   min-height: 100px;
   padding: 20px;
   border-radius: 10px;
-  background-color: #161c42d4;
+  background-image: url(../img/blu4.jpg);
+    background-size: cover;
   font-size: 24px;
   text-align: center;
   color: white;
@@ -126,7 +127,7 @@ h3 {
 #biglietto {
   position: relative;
   border-radius: 142px;
-  background-color: white;
+  background-image: url(../img/paper.jpg);
 }
 
 #biglietto::before {
@@ -142,7 +143,7 @@ h3 {
 }
 
 #biglietto:hover {
-  background-color: #f2f4aa;
+  background-image: url(../img/carta.jpg);
   border: 4px solid rgba(189, 210, 217, 0.92);
   border-radius: 20px;
   margin-top: -200px;
